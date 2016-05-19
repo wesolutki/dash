@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Hello from Flask</title>
+        <script type="text/javascript" src="static/oauth.min.js"></script>
+        <script type="text/javascript" src="static/auth.js"></script>
+    </head>
+    <body>
+        {% if name %}
+          <h1>Hello {{ name }}!</h1>
+        {% else %}
+          <h1>Hello World!</h1>
+        {% endif %}
+    </body>
+</html>
